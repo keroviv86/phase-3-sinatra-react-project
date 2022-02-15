@@ -146,34 +146,68 @@
     },
     {
         "id": 17,
-        "item_name": "",
+        "item_name": "Miso Bold and Spicy",
         "restaurant_name":"Ramen Takeya",
-        "image": "https://www.chicagotribune.com/resizer/trmTFTc38CzQukSL1x_9UHbwK7o=/415x269/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/5N6OOM7IBVAN7HEOX2EMWJZBZM.jpg",
+        "image": "https://images.squarespace-cdn.com/content/v1/528d23cbe4b0e9839ff815ec/1542037682416-2QBYV7E0BDPMVY7XGALU/10.10.18_Takeya_Fulton_148.jpg+miso+bold+.jpg?format=1500w",
         "category": "Ramen",
         "address" :  "2451 N Milwaukee Ave, Chicago, IL 60647",
         "phone" :  7733601072
     },
     {
         "id": 18,
-        "item_name": "",
-        "restaurant_name":"",
-        "image": "https://www.chicagotribune.com/resizer/trmTFTc38CzQukSL1x_9UHbwK7o=/415x269/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/5N6OOM7IBVAN7HEOX2EMWJZBZM.jpg",
-        "category": "Ramen",
-        "address" :  "2451 N Milwaukee Ave, Chicago, IL 60647",
-        "phone" :  7733601072
+        "item_name": "Boston Crème Brioche",
+        "restaurant_name":"Kasama",
+        "image": "https://i.redd.it/oft85k5c56281.jpg",
+        "category": "Pastries",
+        "address" :  "1001 N Winchester Ave, Chicago, IL 60622",
+        "phone" : 7736973790 
+    },
+
+    {
+        "id": 19,
+        "item_name": "Ham and Cheese Croissant",
+        "restaurant_name":"Floriole Cafe and Bakery",
+        "image": "https://im.vsco.co/aws-us-west-2/10dca8/63329961/6…6f2fa2005d55677/vsco620a8663e9452.jpg?w=430&dpr=1",
+        "category": "Pastries",
+        "address" :  "1220 W Webster Ave, Chicago, IL 60614",
+        "phone" :  7738831313
     },
     {
-        "id": 8,
-        "item_name": "",
-        "restaurant_name":"Urban Belly",
-        "image": "https://www.chicagotribune.com/resizer/trmTFTc38CzQukSL1x_9UHbwK7o=/415x269/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/5N6OOM7IBVAN7HEOX2EMWJZBZM.jpg",
-        "category": "Ramen",
-        "address" :  "2451 N Milwaukee Ave, Chicago, IL 60647",
-        "phone" :  7733601072
+        "id": 20,
+        "item_name": "Kouign-amann",
+        "restaurant_name":"Lost Larson",
+        "image": "https://images.getbento.com/accounts/390e517bbcc5b3bcb908676935c6fb9c/media/images/20104Kouign_LL_Web.jpg?&fit=max&auto=compress,format&h=520",
+        "category": "Pastries",
+        "address" :  "5318 N Clark St, Chicago, IL 60640",
+        "phone" :  7739440587
     },
-
-
-
+    {
+        "id": 21,
+        "item_name": "Ham and Cheese Croissant",
+        "restaurant_name":"Good Ambler",
+        "image": "https://im.vsco.co/aws-us-west-2/10dca8/63329961/6…6f2fa2005d55677/vsco620a8663e9452.jpg?w=430&dpr=1",
+        "category": "Pastries",
+        "address" :  "216 N Peoria St, Chicago, IL 60607",
+        "phone" :  3128727165
+    },
+    {
+        "id": 22,
+        "item_name": "Ham and Cheese Croissant",
+        "restaurant_name":"Hewn",
+        "image": "https://scontent-ort2-2.xx.fbcdn.net/v/t31.18172-8/19679303_1390534711014743_798888712976185894_o.jpg?_nc_cat=104&ccb=1-5&_nc_sid=9267fe&_nc_ohc=-tblRsSesY0AX-l1cep&_nc_ht=scontent-ort2-2.xx&oh=00_AT_rHnA6SmL75aw82PW33uMeQ7LnLivhKTYUmrvLmm8ctA&oe=622F907C",
+        "category": "Pastries",
+        "address" :  "1733 Central St, Evanston, IL 60201",
+        "phone" :  8478694396
+    },
+    {
+        "id": 23,
+        "item_name": "Kouign Amann",
+        "restaurant_name":"Aya Bakery",
+        "image": "https://cdn.shopify.com/s/files/1/0080/3327/1871/products/Kouign_Amann_1600x.jpg?v=1570057034",
+        "category": "Pastries",
+        "address" :  "1332 W Grand Ave, Chicago, IL 60642",
+        "phone" :   3128466186
+    }
 
        ]
 }
