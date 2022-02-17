@@ -4,6 +4,7 @@ puts "🌱 Seeding foods..."
 
 Food.create([
     {
+            id: 1,
             item_name: "Dirty Burg",
             restaurant_name:"Loyalist",
             image: "https://bestfoodfeed.s3.amazonaws.com/media/5176318/conversions/156065056_752447808991070_7851601675331888809_n-highResolution.jpg",
@@ -11,6 +12,7 @@ Food.create([
             address:  "177 N Ada St #001, Chicago, IL 60607",
             phone: 7739133774
 }, {
+            id: 2,
             item_name: "Double Cheeseburger with bacon",
             restaurant_name:"Au Cheval",
             image: "https://i.insider.com/577bfdbc4321f1c72f8b56e3?width=1136&format=jpeg",
@@ -18,7 +20,9 @@ Food.create([
             address:  "800 W Randolph St, Chicago, IL 60607",
             phone: 3129294580
         }, 
-        {   item_name: "Original Mott Burger",
+        {   
+            id: 3,
+            item_name: "Original Mott Burger",
             restaurant_name:"Mott Street",
             image: "https://images.squarespace-cdn.com/content/v1/5abd061f25bf02ae7a22f78e/1546726745226-S20TTZ52NVT93RS0QB3G/IMG_3220.jpg?format=1000w",
             category: "Burger",
@@ -26,6 +30,7 @@ Food.create([
             phone: 7739047620
         },
         {
+            id: 4,
             item_name: "City Slicker",
             restaurant_name:"Millard Tavern",
             image: "https://cdn.vox-cdn.com/thumbor/huQavO5HVNydIuxa9NRpWyrr28M=/0x0:1000x667/820x615/filters:focal(420x254:580x414):format(webp):no_upscale()/cdn.vox-cdn.com/ploads/corus_image/image/66092911/maillard_tavern_2.0.jpg",
@@ -34,6 +39,7 @@ Food.create([
             phone: 3127662727
         },
         {
+            id: 5,
             item_name: "Margarita",
             restaurant_name:"Spacca Napoli",
             image: "https://images.squarespace-cdn.com/content/v1/55c4ce5ee4b026fd99444e90/1626296612817-HTZVYXZFSP1GZLHMM768/SpaccaNapoli2018_4640.jpg",
@@ -42,6 +48,7 @@ Food.create([
             phone: 7738782420
         },
         {
+            id: 6,
             item_name: "Pan Pizza",
             restaurant_name:"Pequods",
             image: "https://img1.10bestmedia.com/Images/Photos/366917/Pequod-s-pizza_55_660x440.jpg",
@@ -50,6 +57,7 @@ Food.create([
             phone: 7733271512,
         },
         {
+            id: 7,
             item_name: "Pizza Tartu",
             restaurant_name:"Forno Rosso",
             image: "https://www.chicagotribune.com/resizer/wI4EW7DSOjA4DR_n184N0S45Go8=/1200x0/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/4OKR4ZM6BO3FAHRSMGQYJVBI.jpg",
@@ -58,6 +66,7 @@ Food.create([
             phone: 3122436000
         },
         {
+            id: 8,
             item_name: "Carnivore: Paulie’s Prohibited Pepperoni",
             restaurant_name:"Paulie Gee's",
             image: "https://www.chicagotribune.com/resizer/trmTFTc38CzQukSL1x_9UHbwK7o=/415x269/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/N6OOM7IBAN7HEOX2EMWJZBZM.jpg",
@@ -66,6 +75,7 @@ Food.create([
             phone:  7733601072
         },
         {
+            id: 9,
             item_name: "Fried oyster taco",
             restaurant_name:"Mi Tocaya Antojeria",
             image: "https://mi-tocaya-antojeria-order-online.square.site/uploads/1/3/4/4/134434158/s449348924664430540_p497_i1_w3000.jpeg?width=640",
@@ -74,6 +84,7 @@ Food.create([
             phone:  8723153947
         },
         {
+            id: 10,
             item_name: "Shrimp and Grits",
             restaurant_name:"Velvet Tacos",
             image: "https://www.femalefoodie.com/wp-content/uploads/2017/07/DSC_0920-683x1024.jpg",
@@ -82,6 +93,7 @@ Food.create([
             phone:  7733601072
         },
         {
+            id: 11,
             item_name: "Birria Tacos",
             restaurant_name:"Birrieria Zaragoza",
             image: "https://preview.redd.it/a8cc8sxbsj771.jpg?auto=webp&s=30ecea9a86c7cfb01ef3644521d5a6676015cd67",
@@ -90,6 +102,7 @@ Food.create([
             phone:   7735233700
         },
         {
+            id: 12,
             item_name: "Tacos de Carnitas",
             restaurant_name:"Carnitas Uruapan",
             image: "https://www.chicagotribune.com/resizer/e9ZKU8yfmBcP5tDjQzlAa5ws1UQ=/800x533/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/M4DWY6K4EVHMWDKM7P6RDERI.jpg",
@@ -98,6 +111,7 @@ Food.create([
             phone:  7733601072
         },
         {
+            id: 13,
             item_name: "Tacos al pastor",
             restaurant_name:"Taqueria Chingón",
             image: "https://media.timeout.com/images/105766457/image.jpg",
@@ -105,7 +119,9 @@ Food.create([
             address:  "2234 N Western Ave, Chicago, IL 60647",
             phone:    7736879408
         },    
-        {   item_name: "Tonkotsu",
+        {   
+            id: 14,
+            item_name: "Tonkotsu",
             restaurant_name:"Ramen-San",
             image: "https://www.chicagotribune.com/resizer/trmTFTc38CzQukSL1x_9UHbwK7o=/415x269/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/N6OOM7IBAN7HEOX2EMWJZBZM.jpg",
             category: "Ramen",
@@ -113,6 +129,7 @@ Food.create([
             phone:  7733601072
         },
         {
+            id: 15,
             item_name: "High Five Signature Bowl Tonkotsu",
             restaurant_name:"High Five Ramen",
             image: "https://www.chicagotribune.com/resizer/trmTFTc38CzQukSL1x_9UHbwK7o=/415x269/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/N6OOM7IBAN7HEOX2EMWJZBZM.jpg",
@@ -121,7 +138,7 @@ Food.create([
             phone:  3123441749
         },
         {
-
+            id: 16,
             item_name: "Spicy Garlic Shoyumen",
             restaurant_name:"Oiistar",
             image: "https://cdn.businessyab.com/assets/uploads/52518192a92ec9e0eefe82e3e74b8159__united_states_illinois_cook_county_chicago_west_own_nort_milwaukee_avenue_1385_oiistarhtml.jpg",
@@ -130,6 +147,7 @@ Food.create([
             phone:   7733608791
         },
         {
+            id: 17,
             item_name: "Miso Bold and Spicy",
             restaurant_name:"Ramen Takeya",
             image: "https://images.squarespace-cdn.com/content/v1/528d23cbe4b0e9839ff815ec/1542037682416-2QBYV7E0BDPMVY7XGALU/10.10.18_Takeya_Fulton_148.jpg+miso+bold+.jpg?ormat=150w",
@@ -138,6 +156,7 @@ Food.create([
             phone:  7733601072
         },
         {
+            id: 18,
             item_name: "Boston Crème Brioche",
             restaurant_name:"Kasama",
             image: "https://i.redd.it/oft85k5c56281.jpg",
@@ -146,6 +165,7 @@ Food.create([
             phone:  7736973790 
         }, 
         {
+            id: 19,
             item_name: "Ham and Cheese Croissant",
             restaurant_name:"Floriole Cafe and Bakery",
             image: "https://im.vsco.co/aws-us-west-2/10dca8/63329961/6…6f2fa2005d55677/vsco620a8663e9452.jpg?w=430&dpr=1",
@@ -154,6 +174,7 @@ Food.create([
             phone: 7738831313
         },
         {
+            id: 20,
             item_name: "Kouign-amann",
             restaurant_name:"Lost Larson",
             image: "https://images.getbento.com/accounts/390e517bbcc5b3bcb908676935c6fb9c/media/images/20104Kouign_LL_Web.jpg?&fit=max&auto=compress,format&h=520",
@@ -162,6 +183,7 @@ Food.create([
             phone:  7739440587
         },
         {
+            id: 21,
             item_name: "Ham and Cheese Croissant",
             restaurant_name:"Good Ambler",
             image: "https://im.vsco.co/aws-us-west-2/10dca8/63329961/6…6f2fa2005d55677/vsco620a8663e9452.jpg?w=430&dpr=1",
@@ -170,6 +192,7 @@ Food.create([
             phone:  3128727165
         },
         {
+            id: 22,
             item_name: "Ham and Cheese Croissant",
             restaurant_name:"Hewn",
             image: "https://scontent-ort2-2.xx.fbcdn.net/v/t31.18172-8/19679303_1390534711014743_798888712976185894_o.jpg?_nc_cat=104&ccb=1-5&nc_sid=967fe&_nc_ohc=-tblRsSesY0AX-l1cep&_nc_ht=scontent-ort2-2.xx&h=00_ATrHnA6SmL75aw82PW33uMeQ7LnLivhKTYUmrvLmm8ctA&oe=622F907C",
@@ -178,6 +201,7 @@ Food.create([
             phone:  8478694396
         },
         {
+            id: 23,
             item_name: "Kouign Amann",
             restaurant_name:"Aya Bakery",
             image: "https://cdn.shopify.com/s/files/1/0080/3327/1871/products/Kouign_Amann_1600x.jpg?v=1570057034",
@@ -190,20 +214,30 @@ Food.create([
 puts "✅ Done seeding food!" 
 puts "🌱 Seeding Users..."
 
-User.create([
-    {
+u1= User.create(
+        id:1,
         name: "ilolo",
         email: "iloloizu97@gmail.com",
         password: "password",
         likes: []
-    },
-    {
+)
 
+u2= User.create(
+        id:2,
         name: "vivian",
         email: "iloloizu97@gmail.com",
         password: "password",
         likes: []
-    }
-])
+    
+)
+
+
+Like.create(user_id:1, food_id:1)
+Like.create(user_id:1, food_id:4)
+Like.create(user_id:1, food_id:8)
+Like.create(user_id:2, food_id:4)
+Like.create(user_id:2, food_id:6)
+Like.create(user_id:2, food_id:9)
+
 
 puts "✅ Done seeding!"

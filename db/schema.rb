@@ -12,12 +12,6 @@
 
 ActiveRecord::Schema.define(version: 2022_02_15_171622) do
 
-  create_table "categories", force: :cascade do |t|
-    t.integer "food_id"
-    t.integer "user_id"
-    t.string "category_name"
-  end
-
   create_table "foods", force: :cascade do |t|
     t.string "item_name"
     t.string "restaurant_name"
@@ -25,6 +19,11 @@ ActiveRecord::Schema.define(version: 2022_02_15_171622) do
     t.string "category"
     t.string "address"
     t.integer "phone"
+  end
+
+  create_table "likes", force: :cascade do |t|
+    t.integer "user_id"
+    t.integer "food_id"
   end
 
   create_table "users", force: :cascade do |t|

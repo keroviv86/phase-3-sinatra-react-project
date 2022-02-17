@@ -1,4 +1,4 @@
 class Food < ActiveRecord::Base
-    has_many :categories
-    has_many :users, through: :categories
+    has_many :likes
+    has_many :users, through: :likes 
 end
