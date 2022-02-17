@@ -1,4 +1,4 @@
-puts "🌱 Seeding spices..."
+puts "🌱 Seeding foods..."
 
 # Seed your database here
 
@@ -19,7 +19,7 @@ Food.create([
             phone: 3129294580
         }, 
         {   item_name: "Original Mott Burger",
-            restaurant_name:"Mott Burger",
+            restaurant_name:"Mott Street",
             image: "https://images.squarespace-cdn.com/content/v1/5abd061f25bf02ae7a22f78e/1546726745226-S20TTZ52NVT93RS0QB3G/IMG_3220.jpg?format=1000w",
             category: "Burger",
             address:  "3057 W Logan Blvd, Chicago, IL 60647",
@@ -185,6 +185,25 @@ Food.create([
             address:  "1332 W Grand Ave, Chicago, IL 60642",
             phone:   3128466186
         }
+])
+
+puts "✅ Done seeding food!" 
+puts "🌱 Seeding Users..."
+
+User.create([
+    {
+        name: "ilolo",
+        email: "iloloizu97@gmail.com",
+        password: "password",
+        likes: []
+    },
+    {
+
+        name: "vivian",
+        email: "iloloizu97@gmail.com",
+        password: "password",
+        likes: []
+    }
 ])
 
 puts "✅ Done seeding!"
