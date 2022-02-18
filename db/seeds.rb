@@ -33,7 +33,7 @@ Food.create([
             id: 4,
             item_name: "City Slicker",
             restaurant_name:"Millard Tavern",
-            image: "https://cdn.vox-cdn.com/thumbor/huQavO5HVNydIuxa9NRpWyrr28M=/0x0:1000x667/820x615/filters:focal(420x254:580x414):format(webp):no_upscale()/cdn.vox-cdn.com/ploads/corus_image/image/66092911/maillard_tavern_2.0.jpg",
+            image: "https://images.squarespace-cdn.com/content/v1/5a31ecf1268b96a68b193081/1513739658994-IMWXKIUIQW4108E3XGF7/GALDOPHOTO+15DEC2017-9559.jpg?format=1500w",
             category: "Burger",
             address:  "494 N Milwaukee Ave, Chicago, IL 60654",
             phone: 3127662727
@@ -60,7 +60,7 @@ Food.create([
             id: 7,
             item_name: "Pizza Tartu",
             restaurant_name:"Forno Rosso",
-            image: "https://www.chicagotribune.com/resizer/wI4EW7DSOjA4DR_n184N0S45Go8=/1200x0/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/4OKR4ZM6BO3FAHRSMGQYJVBI.jpg",
+            image: "https://s3-media0.fl.yelpcdn.com/bphoto/iuFNOUO8_8Jzfr7zXDsInA/o.jpg",
             category: "Pizza",
             address:  "1048 W Randolph St, Chicago, IL 60607",
             phone: 3122436000
@@ -69,7 +69,7 @@ Food.create([
             id: 8,
             item_name: "Carnivore: Paulie’s Prohibited Pepperoni",
             restaurant_name:"Paulie Gee's",
-            image: "https://www.chicagotribune.com/resizer/trmTFTc38CzQukSL1x_9UHbwK7o=/415x269/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/N6OOM7IBAN7HEOX2EMWJZBZM.jpg",
+            image: "https://www.insidehook.com/wp-content/uploads/2019/03/PaulieGee_Inlin_1498483647.jpg?fit=1024%2C640",
             category: "Pizza",
             address:  "2451 N Milwaukee Ave, Chicago, IL 60647",
             phone:  7733601072
@@ -105,7 +105,7 @@ Food.create([
             id: 12,
             item_name: "Tacos de Carnitas",
             restaurant_name:"Carnitas Uruapan",
-            image: "https://www.chicagotribune.com/resizer/e9ZKU8yfmBcP5tDjQzlAa5ws1UQ=/800x533/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/M4DWY6K4EVHMWDKM7P6RDERI.jpg",
+            image: "https://grupomasbtl.com/carnitas/wp-content/uploads/sites/2/2019/12/Captura-de-Pantalla-2019-12-20-a-las-11.44.36.jpg",
             category: "Taco",
             address:  "2451 N Milwaukee Ave, Chicago, IL 60647",
             phone:  7733601072
@@ -123,7 +123,7 @@ Food.create([
             id: 14,
             item_name: "Tonkotsu",
             restaurant_name:"Ramen-San",
-            image: "https://www.chicagotribune.com/resizer/trmTFTc38CzQukSL1x_9UHbwK7o=/415x269/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/N6OOM7IBAN7HEOX2EMWJZBZM.jpg",
+            image: "https://glebekitchen.com/wp-content/uploads/2017/04/tonkotsuramenfront.jpg",
             category: "Ramen",
             address:  "2451 N Milwaukee Ave, Chicago, IL 60647",
             phone:  7733601072
@@ -132,7 +132,7 @@ Food.create([
             id: 15,
             item_name: "High Five Signature Bowl Tonkotsu",
             restaurant_name:"High Five Ramen",
-            image: "https://www.chicagotribune.com/resizer/trmTFTc38CzQukSL1x_9UHbwK7o=/415x269/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/N6OOM7IBAN7HEOX2EMWJZBZM.jpg",
+            image: "http://highfiveramen.com/wp-content/uploads/HighFiveRamen-3374.jpg",
             category: "Ramen",
             address:  "112 N Green St, Chicago, IL 60607",
             phone:  3123441749
@@ -141,7 +141,7 @@ Food.create([
             id: 16,
             item_name: "Spicy Garlic Shoyumen",
             restaurant_name:"Oiistar",
-            image: "https://cdn.businessyab.com/assets/uploads/52518192a92ec9e0eefe82e3e74b8159__united_states_illinois_cook_county_chicago_west_own_nort_milwaukee_avenue_1385_oiistarhtml.jpg",
+            image: "https://i0.wp.com/www.feedingofftherails.com/wp-content/uploads/2015/12/oiistar-ramen-shop-e1450908988854.jpg?resize=625%2C399",
             category: "Ramen",
             address:  "1385 N Milwaukee Ave, Chicago, IL 60622",
             phone:   7733608791
@@ -150,16 +150,16 @@ Food.create([
             id: 17,
             item_name: "Miso Bold and Spicy",
             restaurant_name:"Ramen Takeya",
-            image: "https://images.squarespace-cdn.com/content/v1/528d23cbe4b0e9839ff815ec/1542037682416-2QBYV7E0BDPMVY7XGALU/10.10.18_Takeya_Fulton_148.jpg+miso+bold+.jpg?ormat=150w",
+            image: "https://images.squarespace-cdn.com/content/v1/528d23cbe4b0e9839ff815ec/1542037682416-2QBYV7E0BDPMVY7XGALU/10.10.18_Takeya_Fulton_148.jpg+miso+bold+.jpg?format=1500w",
             category: "Ramen",
             address:  "2451 N Milwaukee Ave, Chicago, IL 60647",
             phone:  7733601072
         },
         {
             id: 18,
-            item_name: "Boston Crème Brioche",
+            item_name: "Trio Danish",
             restaurant_name:"Kasama",
-            image: "https://i.redd.it/oft85k5c56281.jpg",
+            image: "https://storage.googleapis.com/tock-public-assets/imagesprod/user_uploaded_images_v1/8d74f9fa1c2ab79f0ba99a3bab4bb725.jpg",
             category: "Pastry",
             address:  "1001 N Winchester Ave, Chicago, IL 60622",
             phone:  7736973790 
@@ -168,7 +168,7 @@ Food.create([
             id: 19,
             item_name: "Ham and Cheese Croissant",
             restaurant_name:"Floriole Cafe and Bakery",
-            image: "https://im.vsco.co/aws-us-west-2/10dca8/63329961/6…6f2fa2005d55677/vsco620a8663e9452.jpg?w=430&dpr=1",
+            image: "https://floriole.square.site/uploads/1/2/9/3/129305939/s911493992787518120_p890_i2_w1440.jpeg?width=640",
             category: "Pastry",
             address:  "1220 W Webster Ave, Chicago, IL 60614",
             phone: 7738831313
@@ -177,34 +177,34 @@ Food.create([
             id: 20,
             item_name: "Kouign-amann",
             restaurant_name:"Lost Larson",
-            image: "https://images.getbento.com/accounts/390e517bbcc5b3bcb908676935c6fb9c/media/images/20104Kouign_LL_Web.jpg?&fit=max&auto=compress,format&h=520",
+            image: "https://10619-2.s.cdn12.com/rests/original/410_503586796.jpg",
             category: "Pastry",
             address:  "5318 N Clark St, Chicago, IL 60640",
             phone:  7739440587
         },
         {
             id: 21,
-            item_name: "Ham and Cheese Croissant",
+            item_name: "Chocolate Babka",
             restaurant_name:"Good Ambler",
-            image: "https://im.vsco.co/aws-us-west-2/10dca8/63329961/6…6f2fa2005d55677/vsco620a8663e9452.jpg?w=430&dpr=1",
+            image: "https://images.squarespace-cdn.com/content/v1/5e5943bf93c2f97d47ad1d38/1598018647314-64F2M0HQY70BNP1MVHZW/goodambler_sandynoto-099.jpg?format=1500w",
             category: "Pastry",
             address:  "216 N Peoria St, Chicago, IL 60607",
             phone:  3128727165
         },
         {
             id: 22,
-            item_name: "Ham and Cheese Croissant",
+            item_name: "Morning Buns",
             restaurant_name:"Hewn",
-            image: "https://scontent-ort2-2.xx.fbcdn.net/v/t31.18172-8/19679303_1390534711014743_798888712976185894_o.jpg?_nc_cat=104&ccb=1-5&nc_sid=967fe&_nc_ohc=-tblRsSesY0AX-l1cep&_nc_ht=scontent-ort2-2.xx&h=00_ATrHnA6SmL75aw82PW33uMeQ7LnLivhKTYUmrvLmm8ctA&oe=622F907C",
+            image: "https://jwcdaily.com/wp-content/uploads/2017/12/Hewn2__040404.jpg",
             category: "Pastry",
             address:  "1733 Central St, Evanston, IL 60201",
             phone:  8478694396
         },
         {
             id: 23,
-            item_name: "Kouign Amann",
+            item_name: "Milk Buns",
             restaurant_name:"Aya Bakery",
-            image: "https://cdn.shopify.com/s/files/1/0080/3327/1871/products/Kouign_Amann_1600x.jpg?v=1570057034",
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg_aVcf67j8izsNA2TpjE3TGWwwJYiMLNA1A&usqp=CAU",
             category: "Pastry",
             address:  "1332 W Grand Ave, Chicago, IL 60642",
             phone:   3128466186

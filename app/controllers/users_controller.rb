@@ -13,4 +13,11 @@ class UsersController < Sinatra::Base
         user.to_json(include: :foods)
     end
   
+    patch '/users/:id' do
+        user = User.find(params[:id])
+        user.update(
+            likes: params[:likes]
+        )
+        user.to_json
+    end
 end
