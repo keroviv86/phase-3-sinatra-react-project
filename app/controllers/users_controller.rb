@@ -7,13 +7,13 @@ class UsersController < Sinatra::Base
         user.to_json
     end
 
-    # get '/user' do 
-    #     user = User.first
-    #     user.to_json(include: :foods)
-    # end
-
     get '/user/:id' do
         user = User.find(params[:id])
         user.to_json(include: :foods)
     end
 end
+
+ # get '/user' do 
+    #     user = User.first
+    #     user.to_json(include: :foods)
+    # end
