@@ -15,6 +15,7 @@ class FoodsController < Sinatra::Base
         foods = Food.where(category: params[:category])
         foods.to_json
     end
+    
 end
 
     #   get "/foods/burgers" do
