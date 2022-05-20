@@ -12,13 +12,16 @@
 
 ActiveRecord::Schema.define(version: 2022_02_15_171622) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "foods", force: :cascade do |t|
     t.string "item_name"
     t.string "restaurant_name"
     t.string "image"
     t.string "category"
     t.string "address"
-    t.integer "phone"
+    t.string "phone"
   end
 
   create_table "likes", force: :cascade do |t|

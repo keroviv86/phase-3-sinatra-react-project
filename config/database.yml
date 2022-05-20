@@ -1,16 +1,50 @@
 default: &default
-  adapter: sqlite3
+  # adapter: sqlite3
+  adapter: postgresql
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
 
 development:
   <<: *default
-  database: db/development.sqlite3
+  # database: db/development.sqlite3
+  database: database_development
 
 test:
   <<: *default
-  database: db/test.sqlite3
+  # database: db/test.sqlite3
+  database: database_development
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  # database: db/production.sqlite3
+  database: database_development
+
+
+
+# development:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: database_development
+#   pool: 2
+# production:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: database_production
+#   pool: 5
+
+# default: &default
+#   adapter: postgresql
+#   encoding: unicode
+#   # For details on connection pooling, see Rails configuration guide
+#   # https://guides.rubyonrails.org/configuring.html#database-pooling
+#   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+# development:
+#   <<: *default
+#   database: react_rails_api_project_template_development
+
+# production:
+#   <<: *default
+#   database: react_rails_api_project_template_production
+#   username: react_rails_api_project_template
+#   password: <%= ENV['REACT_RAILS_API_PROJECT_TEMPLATE_DATABASE_PASSWORD'] %>

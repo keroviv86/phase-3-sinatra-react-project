@@ -6,7 +6,7 @@ class CreateFoods < ActiveRecord::Migration[6.1]
       t.string :image
       t.string :category
       t.string :address
-      t.integer :phone
+      t.string :phone
     end
   end
 end
